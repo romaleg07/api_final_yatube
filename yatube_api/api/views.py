@@ -3,7 +3,7 @@ from django.shortcuts import get_object_or_404
 from rest_framework.permissions import (IsAuthenticatedOrReadOnly)
 from rest_framework.pagination import LimitOffsetPagination
 
-from posts.models import Post, Group, Comment, Follow, User
+from posts.models import Post, Group, Comment, User
 from .serializers import (
     PostSerializers,
     GroupSerializers,
